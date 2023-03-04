@@ -1,0 +1,39 @@
+$color-title: #333333;
+$color-text: #4f4f4f;
+$color-text-accent: #006666;
+$color-description-text: #828282;
+
+$color-accent: #3ab8bc;
+$color-accent-bg: #e6f0f0;
+
+$module-bg: #f2f2f2;
+
+@mixin accent-gradient {
+    background: linear-gradient(
+        225deg,
+        #ffd003 0%,
+        #3ab8bc 51.04%,
+        #026666 100%
+    );
+}
+
+@mixin sertificate-gradient {
+    background: linear-gradient(
+            295.23deg,
+            rgba(2, 102, 101, 0.4) -1.58%,
+            rgba(2, 106, 104, 0.393793) -1.58%,
+            rgba(0, 234, 217, 0.2) 22.55%,
+            rgba(255, 208, 3, 0) 46.39%
+        ),
+        #ffffff;
+}
+
+@mixin sertificate-shadow {
+    box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+
+@mixin start-btn-shadow {
+    box-shadow: 0px 0px 20px rgba(0, 202, 187, 0.4);
+    border-radius: 6px;
+}
